@@ -104,3 +104,25 @@
     background: #0066cc;
     color: white;
 }
+
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 220px;
+    height: 380px;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 160px;
+    height: 280px;
+  }
+
+  .switch-btn {
+    font-size: 0.7em;
+  }
+}
+

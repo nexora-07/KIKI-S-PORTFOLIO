@@ -117,3 +117,123 @@ font-size: 2em;
 .copyright{
     margin-top: 20px;
 }
+
+
+/* ========== MEDIA QUERIES ========== */
+
+/* Large Screens (Desktops >1200px) */
+@media screen and (min-width: 1200px) {
+    body.landing-page {
+        width: 70%;
+    }
+}
+
+/* Medium Screens (Tablets: 768px - 1199px) */
+@media screen and (max-width: 1199px) {
+    body.landing-page {
+        width: 85%;
+    }
+
+    .nav-section {
+        padding: 20px;
+    }
+
+    .hero-section {
+        gap: 2em;
+        padding: 30px;
+    }
+
+    .right-text h1 {
+        font-size: 2.2em;
+    }
+
+    .small-detail {
+        font-size: 0.95em;
+    }
+
+    .about-me {
+        font-size: 1.1em;
+        padding: 30px;
+    }
+}
+
+/* Small Screens (Tablets & Large Phones: 481px - 767px) */
+@media screen and (max-width: 767px) {
+    .nav-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 0.8em;
+        width: 100%;
+    }
+
+    .nav-list li a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .right-text h1 {
+        font-size: 1.8em;
+    }
+
+    .small-detail {
+        font-size: 0.95em;
+    }
+
+    .about-me {
+        font-size: 1em;
+        padding: 20px;
+    }
+}
+
+/* Extra Small Screens (Phones ≤480px) */
+@media screen and (max-width: 480px) {
+    body.landing-page {
+        width: 95%;
+    }
+
+    .left-side h1 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .nav-list li a {
+        font-size: 0.9em;
+        padding: 8px;
+        width: 100%;
+    }
+
+    .hero-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-text h1 {
+        font-size: 1.4em;
+    }
+
+    .small-detail {
+        font-size: 0.9em;
+    }
+
+    .little p {
+        font-size: 1.1em;
+    }
+
+    .socials a {
+        font-size: 1.5em;
+    }
+}

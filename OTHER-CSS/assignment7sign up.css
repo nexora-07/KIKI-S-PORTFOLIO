@@ -45,3 +45,84 @@
     padding: 4px 6px;
     /* margin-bottom: 4px; */
 }
+
+
+/* ========== MEDIA QUERIES FOR SIGN UP PAGE ========== */
+
+/* Large screens (≥1200px) */
+@media screen and (min-width: 1200px) {
+    .form {
+        width: 30%;
+    }
+}
+
+/* Medium screens (tablets: 768px - 1199px) */
+@media screen and (max-width: 1199px) {
+    .form {
+        width: 50%;
+        padding: 30px;
+    }
+
+    .btn {
+        width: 50%;
+        font-size: 1em;
+    }
+}
+
+/* Small screens (phones: 481px - 767px) */
+@media screen and (max-width: 767px) {
+    .form {
+        width: 80%;
+        padding: 20px;
+    }
+
+    input, 
+    select {
+        width: 100%;
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    .btn {
+        width: 70%;
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    .back {
+        display: inline-block;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+        padding: 6px 10px;
+    }
+}
+
+/* Extra small screens (≤480px) */
+@media screen and (max-width: 480px) {
+    .form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .sign-up {
+        font-size: 1.6em;
+    }
+
+    input, 
+    select {
+        width: 100%;
+        font-size: 0.9em;
+        padding: 6px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .back {
+        font-size: 0.75em;
+        padding: 5px 8px;
+    }
+}

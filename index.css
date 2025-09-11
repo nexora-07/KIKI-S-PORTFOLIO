@@ -657,6 +657,9 @@ a button:hover{
 }
 @media(max-width:601px) {
   /* --------hero section------- */
+  .section-1, .overlay{
+    height: 100vh;
+  }
   .light{
     font-size: 1em;
   }
@@ -702,10 +705,10 @@ a button:hover{
   .margin-body{
     width: 100%;
   }
-  .section-1 {
-    background-position: top center; /* keep face visible */
-    height: 100vh; /* adjust if too tall */
-  }
+  /* .section-1 {
+    background-position: top center; keep face visible
+    height: 100vh; adjust if too tall
+  } */
   .overlay{
     height: 100vh;
   }
@@ -721,7 +724,7 @@ a button:hover{
     margin-top: 240px;
   }
   .section-1, .overlay{
-    height: 100vh;
+    height: 80vh;
   }
   
   
@@ -742,5 +745,10 @@ a button:hover{
   }
   .rectangle-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media(max-width:330px) {
+  .section-1, .overlay{
+    height: 100vh;
   }
 }

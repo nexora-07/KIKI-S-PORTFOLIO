@@ -62,3 +62,105 @@ font-size: 2em;
 .copyright{
     margin-top: 20px;
 }
+
+/* ========== MEDIA QUERIES ========== */
+
+/* Large Screens (Desktops >1200px) */
+@media screen and (min-width: 1200px) {
+    .landing-page {
+        width: 70%;
+    }
+}
+
+/* Medium Screens (Tablets: 768px - 1199px) */
+@media screen and (max-width: 1199px) {
+    .landing-page {
+        width: 85%;
+    }
+
+    .nav-section {
+        padding: 20px;
+    }
+
+    .favourite,
+    .why {
+        padding: 30px;
+        font-size: 1.05em;
+    }
+
+    .left-side h1 {
+        font-size: 2em;
+    }
+}
+
+/* Small Screens (Tablets & Large Phones: 481px - 767px) */
+@media screen and (max-width: 767px) {
+    .nav-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .nav-list {
+        width: 100%;
+    }
+
+    .nav-list li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .favourite,
+    .why {
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .back {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .left-side h1 {
+        font-size: 1.8em;
+    }
+}
+
+/* Extra Small Screens (Phones ≤480px) */
+@media screen and (max-width: 480px) {
+    .landing-page {
+        width: 95%;
+    }
+
+    .left-side h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .nav-list li a {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .favourite,
+    .why {
+        font-size: 0.95em;
+        line-height: 1.5;
+        padding: 15px;
+    }
+
+    .back {
+        font-size: 0.95em;
+        padding: 8px;
+    }
+
+    .socials a {
+        font-size: 1.5em;
+    }
+}

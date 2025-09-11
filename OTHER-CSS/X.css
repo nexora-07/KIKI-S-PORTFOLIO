@@ -96,3 +96,50 @@
     padding-left: 14px;
     padding-right: 40px;
 }
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  .parent {
+    grid-template-columns: 150px 1fr;
+    grid-template-areas:
+      "aside header"
+      "aside content"
+      "aside aside2";
+  }
+
+  .aside2 {
+    border-top: thin solid white;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 768px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "content";
+  }
+
+  .aside {
+    display: none; /* hide sidebar */
+  }
+
+  .aside2 {
+    display: none; /* hide right sidebar */
+  }
+
+  .header-nav {
+    justify-content: space-between;
+    padding: 8px;
+  }
+
+  .image-text p {
+    font-size: 1em;
+  }
+
+  .post {
+    padding: 4px 10px;
+    font-size: 0.9em;
+  }
+}

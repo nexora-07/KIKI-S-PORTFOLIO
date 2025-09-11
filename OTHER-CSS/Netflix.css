@@ -123,3 +123,84 @@ input{
     background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
     border: none;
 }
+
+/* ========== Tablets ========== */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 120px;
+  }
+
+  .btn {
+    padding: 5px 14px;
+    font-size: 0.7em;
+    margin-right: 10px;
+  }
+
+  .large {
+    font-size: 2em;
+    padding: 0 10px;
+  }
+
+  .small {
+    font-size: 0.9em;
+  }
+
+  .ready {
+    font-size: 0.9em;
+    padding: 0 20px;
+  }
+
+  .email-wrapper {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .address {
+    width: 90%;
+    padding-right: 16px; /* remove fixed big padding */
+  }
+
+  .getready-btn {
+    width: 90%;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .hero-section2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ========== Phones ========== */
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 90px;
+  }
+
+  .btn {
+    padding: 4px 10px;
+    font-size: 0.6em;
+  }
+
+  .large {
+    font-size: 1.5em;
+  }
+
+  .small {
+    font-size: 0.8em;
+  }
+
+  .ready {
+    font-size: 0.8em;
+  }
+
+  .address, 
+  .getready-btn {
+    width: 100%;
+  }
+
+  .hero-section2 {
+    grid-template-columns: 1fr;
+  }
+}
+
