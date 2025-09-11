@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 180px 600px ;
+    grid-template-areas: 
+    "aside header aside2"
+    "aside content aside2"
+    "aside content aside2";
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-right: 20px;
+}
+.fa-brands{
+    font-size: 2em;
+    color: white;
+}
+.fa-solid{
+    font-size: 2em;
+    color: white;
+}
+.fa-regular{
+    font-size: 2em;
+    color: white;
+}
+.aside{
+    grid-area: aside;
+    justify-items: end;
+    background-color: black;
+    /* height: 584px; */
+    color: white;
+    padding-top: 10px;
+}
+.profile{
+    border-radius: 50%;
+}
+.header{
+    border: thin solid white;
+    grid-area: header;
+    color: white;
+    background-color: black;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: thin solid white;
+}
+.header-content1{
+    padding: 20px;
+}
+.image-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.content{
+    border: thin solid white;
+    grid-area: content;
+    color: white;
+    background-color: black;
+}
+.aside2{
+    border: thin solid white;
+    grid-area: aside2;
+    color: white;
+    background-color: black;
+}
+.post{
+    border: thin solid whitesmoke;
+    border-radius: 14px;
+    padding: 6px 14px;
+    color: black;
+    background-color: rgb(233, 230, 230);
+}
+.search{
+    background-color: transparent;
+    border: thin solid whitesmoke;
+    margin-top: 6px;
+    margin-left: 30px;
+    border-radius: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 40px;
+}

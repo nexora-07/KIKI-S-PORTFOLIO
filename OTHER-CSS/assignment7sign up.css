@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.body{
+    /* background: linear-gradient(to right,#D1D1D1,#ffffff); */
+    /* background: radial-gradient(white,#D1D1D1,blue); */
+    background: linear-gradient(to left,rgba(0, 0, 255, 0.167), #d1d1d1,rgba(0, 0, 255, 0.167));
+}
+.form{
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 25%;
+    border: thin solid white;
+    border-radius: 10px;
+}
+.sign-up{
+    color: #0000ff;
+    text-align: center;
+    font-size: 2.2em;
+    padding: 4px;
+}
+.btn{
+    color: white;
+    background: #0000ff;
+    border-radius: 5px;
+    border: 2px solid #0000ff;
+    font-size: 1em;
+    padding: 4px;
+    width: 30%;
+    margin-top: 8px;
+    /* background: radial-gradient(blue,white); */
+}
+.back{
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+    font-size: 0.6em;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 4px 6px;
+    /* margin-bottom: 4px; */
+}
