@@ -47,8 +47,8 @@ nav {
   border-bottom: 1px solid #222222;
 }
 .section-1{
-    background-image: url(../IMAGES/girl\ looking\ up.jpg);
-    background-position: center;
+    background-image: url(./IMAGES/vs.jpg);
+    background-position: center 60%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 140vh;
@@ -58,7 +58,7 @@ nav {
 }
 .overlay {
   position: absolute;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.6);
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent); */
 
   height: 140vh;
@@ -126,7 +126,7 @@ nav {
   min-height: 300px; 
   color: white;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 340px;
 }
 .myname{
     font-weight: 800;
@@ -596,7 +596,10 @@ a button:hover{
     display: block;
   }
   .hero-section{
-    margin-top: 360px;
+    margin-top: 440px;
+  }
+  .section-1, .overlay{
+    height: 100vh;
   }
   .bold{
     font-size: 3.6em;
@@ -709,6 +712,9 @@ a button:hover{
     background-position: top center; keep face visible
     height: 100vh; adjust if too tall
   } */
+   .hero-section{
+    margin-top: 320px;
+   }
   .overlay{
     height: 100vh;
   }
@@ -721,7 +727,7 @@ a button:hover{
     font-size: 1.8em;
   }
   .hero-section{
-    margin-top: 240px;
+    margin-top: 200px;
   }
   .section-1, .overlay{
     height: 80vh;
