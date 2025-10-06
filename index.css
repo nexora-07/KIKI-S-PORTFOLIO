@@ -548,11 +548,6 @@ a button:hover{
   transition: opacity 0.3s, transform 0.3s;
   z-index: 999; keep it on top of everything
 } */
-.footer-logo{
-  /* margin-top: 20px; */
-  width: 30px;
-  
-}
 
 .back-to-top {
   position: fixed;
